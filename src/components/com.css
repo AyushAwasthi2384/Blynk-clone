@@ -1,12 +1,72 @@
-
-.dial{
-    border-radius: 1000px;
-    /* background-color: black; */
+*{
+    background-color: #000;
+}
+.vdo{
     width: 50vw;
     height: 50vw;
-    border: 10px solid gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
 }
 
+.vdo1{
+    left: 0;
+}
+.vdo2{
+    left: 50vw;
+}
+.vdo3{
+    left: 0;
+    top: 50vw;
+}
+
+.on-off{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 72vw;
+    left: 54vw;
+    border: none;
+    border-radius: 100px;
+    font-size: 2rem;
+    background-color: blue;
+}
+
+.temp{
+    background-color: #000;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.temp1{
+    top: 40vw;
+    left: 34vw;
+}
+.temp2{
+    top: 40vw;
+    left: 86vw;
+}
+.temp3{
+    top: 86vw;
+    left: 34vw;
+}
+
+.title{
+    color: #fff;
+    position: absolute;
+    z-index: 6;
+}
+
+.tit1{
+    left:0;
+}
+
+.tit2{
+    left: 50vw;
+}
+
+.tit3{
+    left: 0;
+    top: 50vw;
+}
