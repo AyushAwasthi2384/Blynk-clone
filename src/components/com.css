@@ -1,0 +1,12 @@
+
+.dial{
+    border-radius: 1000px;
+    /* background-color: black; */
+    width: 50vw;
+    height: 50vw;
+    border: 10px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
